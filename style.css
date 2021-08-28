@@ -38,21 +38,22 @@ ul{
 
 .logo a{
     text-decoration: none;
-    color: #000000;
+    color: #c32865;
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 5px;
     display: inline-block;
     transition: all 0.3s;
+}
+
+.logo a:hover{
+    color:#fff;
 }
 
 .menu ul {
     margin-left: 100px;
 }
 
-.logo a:hover{
-    color:#fff;
-}
 
 .menu ul li{
     display: inline-block;
@@ -64,7 +65,7 @@ ul{
 
 .menu ul li a{
     text-decoration: none;
-    color:#000000;
+    color:#c32865;
     font-size: 17px;
     font-weight: 500;
     display: inline-block;
@@ -82,7 +83,7 @@ ul{
 }
 
 .header .contact-info ul{
-    margin-left: 41px;
+    margin-left: 10px;
 }
 
 .header .contact-info ul li{
@@ -90,7 +91,7 @@ ul{
 }
 
 .header .contact-info ul li a{
-    color: #000000;
+    color: #c32865;
     font-size: 15px;
     transition: all 0.3s;
 }
@@ -100,8 +101,23 @@ ul{
 }
 
 .header .contact-info ul li a.sep{
-    margin: 0 28px;
+    margin: 1px;
     opacity: 0.3;
+}
+
+.logo1 a{
+    text-decoration: none;
+    color: #c32865;
+    display: block;
+    margin-top: 1px;
+    font-size: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.logo1 a:hover{
+    color:#fff;
 }
 
 
